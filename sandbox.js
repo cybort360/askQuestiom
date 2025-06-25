@@ -16,10 +16,10 @@ const fun = function () {
 
   const choice = confirm('So whats it gonna be?');
   if (choice) {
-    alert("I see you've chosen the easy way 🤟");
-  } else {
-    alert('Sounds like to me you want it the hard way 💣');
-  }
+  alert(`I see you've chosen the easy way, ${askName} 🤟`);
+} else {
+  alert(`Sounds like to me you want it the hard way, ${askName} 💣`);
+}
 };
 
 fun();
